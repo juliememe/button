@@ -1,0 +1,23 @@
+body {
+  position: relative;
+}
+
+.change_button {
+  position: absolute;
+  top: 50vh;
+  left: 50%;
+  cursor: pointer;
+  min-height: 100px;
+  background-color: hsla(280, 12%, 90%, 0.5);
+  outline: none;
+  font-weight: 800;
+  border: none;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  margin-right: -50%;
+  min-width: 200px;
+  font-size: 25px;
+}
+.change_button:active {
+  opacity: 0.1;
+}
