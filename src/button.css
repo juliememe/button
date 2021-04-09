@@ -17,6 +17,7 @@ body {
   margin-right: -50%;
   min-width: 200px;
   font-size: 25px;
+  cursor: pointer;
 }
 .change_button:active {
   opacity: 0.1;
